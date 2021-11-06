@@ -1,10 +1,10 @@
 var express = require('express');
 var router = express.Router();
 
+const getCardData = require('./services/cardService');
+
 router.get('/', function(req, res, next){
-    res.send('respond with a card deck');
+    res.json(getCardData());
 });
-
-
 
 module.exports = router;

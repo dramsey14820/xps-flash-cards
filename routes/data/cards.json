@@ -1,0 +1,34 @@
+[
+    {
+        "card": {
+            "frontSide": {
+                "title": "The front side",
+                "subtitle": "buusiness in the front",
+                "content": "trenger"
+            },
+            "backSide":{
+                "title": "The back side",
+                "subtitle": "party in the back",
+                "content": "need"
+            },
+            "id": 1,
+            "showFront": true
+        }
+    },
+    {
+        "card": {
+            "frontSide": {
+                "title": "another front side",
+                "subtitle": "more buusiness in the front",
+                "content": "grater"
+            },
+            "backSide":{
+                "title": "another back side",
+                "subtitle": "more party in the back",
+                "content": "crying"
+            },
+            "id": 2,
+            "showFront": true
+        }
+    }
+]
